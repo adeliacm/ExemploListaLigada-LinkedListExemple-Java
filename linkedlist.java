@@ -27,6 +27,14 @@ public class linkedlist {
 		System.out.println(ret);
 		
 		System.out.println(lista.tamanho());
+
+		lista.removeDoFim();
+		System.out.println(lista);
+		
+		lista.remove(2);
+		System.out.println(lista);
+		
+		System.out.println(lista.contem("Maria"));
 		
 
 	}
